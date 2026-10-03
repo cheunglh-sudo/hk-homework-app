@@ -294,7 +294,7 @@ export default function HomeworkApp() {
                 onChange={e => setSelectedSubject(e.target.value)}
                 className="bg-indigo-900 text-white text-sm font-medium rounded-lg px-3 py-1.5 border border-indigo-500 focus:ring-2 focus:ring-amber-400 focus:outline-none"
               >
-                {['中國語文', '英國語文', '數學', '中國歷史', '科學', '地理'].map(s => <option key={s} value={s}>{s}</option>)}
+                {['歷史', '公經社', '公民與社會發展'].map(s => <option key={s} value={s}>{s}</option>)}
               </select>
 
               <select 
@@ -302,7 +302,7 @@ export default function HomeworkApp() {
                 onChange={e => setSelectedClass(e.target.value)}
                 className="bg-indigo-900 text-white text-sm font-medium rounded-lg px-3 py-1.5 border border-indigo-500 focus:ring-2 focus:ring-amber-400 focus:outline-none"
               >
-                {['1A', '1B', '1C', '2A', '2B', '3A', '4A', '5A', '6A'].map(c => <option key={c} value={c}>{c} 班</option>)}
+                {['1A', '1B', '1C', '2A', '2C', '3A', '3D', '5D', '6A'].map(c => <option key={c} value={c}>{c} 班</option>)}
               </select>
             </div>
 
